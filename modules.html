@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("back.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+     body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  
+  }
+  .course{
+color: #fff;
+border: 1px solid rgb(238, 4, 4);
+  margin: 10px 10px 10px 25px;
+  background-color:transparent;
+  line-height:1.3;
+
+  }
+    </style>
+      
+    </head>
+   
+    <body>
+      <h1 style="background-color:Tomato;"><marquee>WWW.CADTECH4U.GA</marquee></h1>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="modules.html">Modules</a>
+        <a href="#">Course Details</a>
+        <a href="#">My Cources</a>
+        <a href="#Cart">Cart</a>
+        <a href="#FAQ">FAQ</a>
+        <a href="index.html">Home</a>
+      </div>
+  
+   
+    
+    <div id="main">
+      <button onclick= "window.location.href='index.html'">Back to Home</button>  
+      
+    </div>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+       
+    </body>
+    </html> 
+    
+
+<div class="bg"> <div><h1 style="text-align: center;"><p style="color:rgb(252, 252, 252)">Our Modules</p></h1></div>
+<div class="course"><ul><li>The course will cover introduction to Design fundamentals.</li>
+<li>Application of Engineering concepts.</li><li>Working on live projects.</li>
+<li>Design approach towards machine tool -</li> <p>Customer inputs, machine specification,material 
+selection,  3D modeling of parts, assemblies in CAD tool.</p><li>preparing the final manufacturing drawings as per industry standards.</li><li>(GD&T-Geometric Dimensioning and Tolerancing ).</li>
+<li>Aspects of drawing.</li> <li>Aspects of design-</li> Design for Customers, feasibility, Design for comfort, Design for Manufacturing , Accuracy,<br> Design for Assembly & troubleshooting  will be guided in this course.<br>
+<li>Material selection and heat treatment processes.</li>
+<li>Selection of Bearings and its arrangements.</li>
+<li>Design of pulleys.</li>
+<li>Ergonomics of machine.</li>
+<li>Introduction to manufacturing stages involved in particular object.</li>
+<li>Design consideration in castings.</li></ul></div>
+​
+<section>
+
+<marquee> <h2 style="color:rgb(78, 228, 110)">This course will definitely bridge the gap between fresh engineering students and manufacturing core companies to some extent.
+</h2></marquee></section>
+</div>
+
+
+</body>
+</html>
